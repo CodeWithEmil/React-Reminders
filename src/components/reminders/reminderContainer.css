@@ -1,0 +1,27 @@
+
+
+
+/*Reminder Container's Styles*/
+#reminderContainer {
+    padding: 4.8vh 0;
+    
+    width: 55%;
+    height: calc(fit-content + 4rem);
+    min-height: 4rem;
+
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+
+    row-gap: 2.4rem;
+
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;*/
+}
+
+.gridItem {
+    grid-column: 1fr;
+    grid-row: 2fr;
+}
