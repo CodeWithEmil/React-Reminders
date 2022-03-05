@@ -22,7 +22,7 @@
 
     border-radius: 20px 20px 0 0;
 
-    color: #eeeeee;
+    color: #000;
     background: #eeeeee;
 
     display: flex;
@@ -112,6 +112,8 @@
 .reminderButton button {
     height: 100%;
     width: 100%;
+
+    cursor: pointer;
 
     border: none;
     border-radius: 16px;

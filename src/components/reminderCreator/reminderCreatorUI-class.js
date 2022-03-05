@@ -7,7 +7,7 @@ import "./reminderCreator.css";
 
 export let valuesArray = [];
 
-class reminderCreator extends Component {
+class remindderCreator extends Component {
     constructor(props) {
         super(props);
 
@@ -28,21 +28,18 @@ class reminderCreator extends Component {
         e.preventDefault();
 
         this.state.user = this.usernameInput.current.value;
-
         return this.state.user;
     }
     titleInputAction = e => {
         e.preventDefault();
 
         this.state.title = this.titleInput.current.value;
-
         return this.state.title;
     }
     priorityInputAction = e => {
         e.preventDefault();
 
         this.state.priority = this.priorityInput.current.value;
-
         return this.state.priority;
     }
 
@@ -88,4 +85,4 @@ class reminderCreator extends Component {
     }
 }
 
-export default reminderCreator;
+export default remindderCreator;

@@ -7,13 +7,13 @@ import "./general.css";
 /*import Reminder from "./components/reminders/reminderCard/reminder";
 import "./components/reminders/reminderCard/reminder.css";*/
 
-import ReminderCreator from "./components/reminderCreator/reminderCreatorUI";
+import ReminderCreator from "./components/reminderCreator/reminderCreatorUI-func";
 import "./components/reminderCreator/reminderCreator.css";
 
 import ReminderContainer from "./components/reminders/reminderContainer";
 import "../src/components/reminders/reminderContainer.css";
 
-import {valuesArray} from "./components/reminderCreator/reminderCreatorUI";
+import {valuesArray} from "./components/reminderCreator/reminderCreatorUI-func";
 
 ReactDOM.render(
   <React.StrictMode>

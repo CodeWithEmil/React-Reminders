@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./reminderContainer.css";
 
-import Reminder from "./reminderCard/reminder";
+import Reminder from "./reminderCard/reminder-func";
 
 class ReminderContainer extends Component {
 
@@ -24,6 +24,9 @@ class ReminderContainer extends Component {
         return(
             <div id = "reminderContainer" ref = {this.container}>  
 
+                {this.loggingArray()}
+                {this.loggingArray()}
+                {this.loggingArray()}
                 {this.loggingArray()}
             
             </div>
